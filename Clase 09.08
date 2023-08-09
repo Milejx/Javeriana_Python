@@ -1,0 +1,36 @@
+#REPETICIÓN
+
+## While --> 
+limiter = 0
+while limiter < 10:
+    print(limiter)
+    limiter += 1 # si no modifica la variable, siempre seguirá siendo 0.
+# Si olvido colocar el limitador, no podemos ejecutarlo por siempre así que se realiza crtl + c para pausarlo.
+
+##For --> variable no definidia, y rango en que se va a mover (puede ser rango de números o rango de cadena de texto).}
+
+#El limitadoe se define dentro del <for>
+
+# > for + variable + in {rango}: (subsistema que es una función porque contiene algo -valores dentro de un paréntesis-).
+
+#rango tiene tres elementos : 1. min (n). 2. máx (m). 3. pasos q da (p).}
+# con el <for> automáticamente aumenta el +1 después de "printear".
+
+#con cadenas de texto: se va moviendo a la siguiente letra una por una, en cadena.}
+
+#string = "Hello"
+#limitador se define dentro del for.
+#for character in string
+
+#EJ: Construir los primeros n números pares.
+
+nPar = int(input("Ingresa número par: "))
+for Par in range (2, ((nPar*2) + 1), 2):
+    print(Par)
+
+print("----------------------------")
+
+Pares = 2
+while Pares <= nPar * 2:
+    print(Pares)
+    Pares += 2  # par
