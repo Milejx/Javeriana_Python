@@ -1,0 +1,16 @@
+nMáx = int(input("Hola, escribe un número: "))
+for núm in range(nMáx + 1):
+    if núm  % 3 == 0:
+        if núm % 5 == 0:
+            print("FlipFlop")
+        else:
+            print("Flip")
+    else:
+        if núm % 5 == 0:
+            print("Flop")
+        else:
+            print(núm)
+
+#características del código:
+#nMax:int:cte=50
+#núm:int:var=[0,50]}
